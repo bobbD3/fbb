@@ -1,0 +1,38 @@
+<%- include("partials/header") %>
+<br><br>
+<div class="container">
+    
+    <section class="blogPost" >
+        <h1>Добре дошли в Блогът на Functional Bodies</h1>
+        <p>Вижте нашата гледна точка</p>
+        <% if(currentUser && currentUser.isAdmin) { %>
+        <p>
+            <a class="btn btn-general btn-yellow" href="/blog/new">Добави Блог Пост</a>
+        </p>
+        <% } %> 
+    </section>
+
+
+
+
+    <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+        <% blog.reverse().forEach(function(blog){  %>
+            <div class="col-md-4 col-sm-6 ">
+                <div class="img-thumbnail">
+                        <img class="img-fluid" alt="Responsive image" src="<%= blog.image %>">
+                        <h1>
+                                <h4><%= blog.name %></h4>
+                        </h1>
+                        <p>
+                            <a href="/blog/<%= blog._id %>" class="btn btn-general btn-yellow">Научи повече</a>
+                        </p>
+                </div>
+                
+            </div>
+            
+        <% }) %>
+    </div>
+
+</div>
+
+<%- include("partials/footer") %>

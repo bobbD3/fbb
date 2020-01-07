@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Functional bodies</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        body{
+            overflow: hidden;
+        }
+        .popUpWrapper{
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            top:0;
+            left: 0;;
+
+            z-index: 1;
+            background-color: rgba(0,0,0,0.8);
+        }
+
+        .popupInnerWrapper{
+            position: absolute;
+            margin: auto;
+            height: 500px;
+            width: 860px;
+            top:calc(50% - 250px);
+            left:calc(50% - 430px);
+        }
+        
+        .closeButton{
+            position: absolute;
+
+            height: 38px;
+            width: 38px;
+            background-image: url('./img/other/closeBtnX.png');
+            top:-50px;
+            right: -50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <iframe src="/" style="height:100vh; width:100vw; border:none;"></iframe>
+    <div class="popUpWrapper">
+        <div class="popupInnerWrapper">
+            <a href="/" class="closeButton"></a>
+                <iframe width="800" height="600" src="https://www.youtube.com/embed/IBV2BsJ7E9U?rel=0&autoplay=1&mute=1" frameborder="0"; allowfullscreen="1"; ></iframe>
+                
+                
+           </div>
+    </div>
+</body>
+</html>
