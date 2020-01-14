@@ -307,7 +307,7 @@
     .home-menu {
         padding: 0;
     }
-    #about .container {
+    #about  {
         padding-top: 0;
     }
 
@@ -567,7 +567,7 @@
     .blogPost {
         margin-left: 0;
     }
-    #stats .container {
+    #stats  {
         padding-left: 0;
         padding-right: 0;
     }
@@ -740,7 +740,7 @@
         margin-top: 205%;
     }
 
-    #about .container {
+    #about  {
         padding-left:0 ;
     }
     #services-01{
