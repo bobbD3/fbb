@@ -123,20 +123,21 @@
         line-height: 20px;
     }
     .content-box-md {
-        padding: 120px 0;
+        padding: 20px 0;
+        
     }
-
-}
-#home-content-inner {
-    display: table-cell;
-vertical-align: middle;
-text-align: center;
-position: absolute;
-top: 80%;
-left: 50%;
-height: 30%;
-width: 50%;
-margin: -15% 0 0 -25%;
+    #home-content-inner {
+        display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+    }
+    
 }
 
 /* Small Devices (Portrait Tablets & Small Desktops) */
@@ -171,8 +172,8 @@ margin: -15% 0 0 -25%;
     
     /* Generic */
     .btn-general {
-        padding: 8px 35px 8px 35px;
-        font-size: 10px;
+        padding: 6px 35px 8px 35px;
+        font-size: 14px;
     }
     /* Generic */
     .vertical-heading h2 {
@@ -231,18 +232,24 @@ margin: -15% 0 0 -25%;
         background: rgba(0, 0, 0, 0.2);
         color: #fff;
         z-index: 2;
+        display: none;
       }
     #info-01 {
         padding-bottom: 0;
     }
     .service i {
-        color: #cd2027;
+        color: #2de063;
     }
     .service  p {
         color: #DCDCDC;
     }
     .side-icon {
         font-size: 20px;
+    }
+    .nav-link-right {
+    
+        position: relative;
+        left: 0;
     }
 }
 
@@ -257,7 +264,7 @@ margin: -15% 0 0 -25%;
     }
 
     .navbar {
-        padding: 20px 0;
+        padding: 0px 0;
     }
     .site-nav-wrapper,
     .white-nav-top {
@@ -287,10 +294,30 @@ margin: -15% 0 0 -25%;
     width: 50%;
     margin: -15% 0 0 -25%;
     }
+
+    /* About */
+    #about {
+        margin-top: 205%;
+    }
+    .home-menu {
+        margin-top: 47.5%;
+        padding: 0;
+    }
+
+    .home-menu .container{
+        padding: 0;
+    }
+    #about .container {
+        padding-top: 0;
+    }
+
+    #about .tab__content {
+        padding: 0;
+    }
     /* Generic */
     .btn-general {
         padding: 8px 25px 6px 25px;
-        font-size: 10px;
+        font-size: 14px;
     }
     /* About 01 */
     /* Large Content Box */
@@ -322,7 +349,8 @@ margin: -15% 0 0 -25%;
     /* About 02 */
     /* Medium Content Box */
     .content-box-md {
-        padding: 80px 0;
+        padding: 10px 0;
+        margin-top: 70px;
     }
     .about-item {
         padding: 55px 30px;
@@ -481,6 +509,7 @@ margin: -15% 0 0 -25%;
         background: rgba(0, 0, 0, 0.2);
         color: #fff;
         z-index: 2;
+        display: none;
       }
     #info-01 {
         padding-bottom: 0; 
@@ -498,7 +527,7 @@ margin: -15% 0 0 -25%;
         padding: 75px;
     }
     .service i {
-        color: #cd2027;
+        color: #2de063;
     }
     .service  p {
         color: #DCDCDC;
@@ -506,6 +535,52 @@ margin: -15% 0 0 -25%;
     .side-icon {
         font-size: 20px;
     }
+    .nav-link-right {
+    
+        position: relative;
+        left: 0;
+    }
+    #services-01 {
+        background-color: black;
+        background-size: cover;
+        padding-top: 0;
+        padding-left: 10px;
+        padding-bottom: 0;
+        padding-right: 20px;
+        z-index: 0;
+    } 
+    .service h4{
+        border-bottom: 2px solid #2de063 ;
+        padding-bottom: 2px;
+    }
+    .service i {
+        color: #2de063;
+        display: none;
+    }
+    .service p {
+        padding-right: 12px;
+        font-size:15px;
+    }
+    #blog {
+        padding: 0;
+    }
+    .blogPost {
+        margin-left: 0;
+    }
+    #stats .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #contact {
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+    #contact-left p {
+        margin: 0;
+    }
+    
 }
 
 
@@ -514,34 +589,47 @@ margin: -15% 0 0 -25%;
 
 @media (max-width: 480px)
  {
-    #home-overlay{
-        background-color: rgba(0, 0, 0, 0.6);
-
+    .home-menu {
+        margin-top: 60.5%;
+        padding: 0;
     }
-    /* Home */
     #team {
-        display: none;
+        display: flex;
+        padding: 0;
     }
     #home-content-inner {
         display: table-cell;
     vertical-align: middle;
     text-align: center;
     position: absolute;
-    top: 60%;
+    top: 80%;
     left: 50%;
     height: 30%;
     width: 50%;
-    margin: -15% 0 0 -25%;
+    margin: -55% 0 0 -25%;
+    
     }
 
     #home-heading h1 {
-        font-size: 18px;
+        font-size: 24px;
     }
     #home-text p {
         font-size: 11px;
         line-height: 16px;
         margin: 8px 10px 25px 10px;
     }
+
+    .home-stats-item{
+        border-top: 3px solid #f8f8f8;
+    }
+    #about {
+        margin-top: 155.5%;
+    }
+
+    .btn-contact-us {
+        position: absolute;
+    top: 87%;
+    left: 58%;
     /* Generic */
     .vertical-heading h2 {
         font-size: 22px;
@@ -567,6 +655,7 @@ margin: -15% 0 0 -25%;
         background: rgba(0, 0, 0, 0.2);
         color: #fff;
         z-index: 2;
+        display: none;
       }
     #info-01 {
         padding-bottom: 0; 
@@ -575,10 +664,19 @@ margin: -15% 0 0 -25%;
     #services-01{
         background-color: black;
     background-size: cover;
-    padding: 75px;
+    padding-top: 0;
+    padding-left: 5px;
+    padding-bottom: 0;
+    padding-right: 40px;
     }
     .service i {
-        color: #cd2027;
+        color: #2de063;
+        display: none;
+    }
+
+    .service h4{
+        border-bottom: 2px solid #2de063 ;
+        padding-bottom: 2px;
     }
     .service  p {
         color: #DCDCDC;
@@ -589,21 +687,75 @@ margin: -15% 0 0 -25%;
     .blog-post {
         display: none;
     }
+    .nav-link-right {
+    
+        position: relative;
+        left: 0;
+    }
+    #arrow-down {
+        bottom: 5%;
+        display: inline;
+    }
 }
 
+@media (max-width: 375px) {
+    #about {
+        margin-top: 152.5%;
+    }
 
+}
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
 
 @media (max-width: 320px) {
+    .home-menu {
+        margin-top:78.5%;
+    }
+    #home-heading {
+        padding: 10px;
+    }
+    #home-heading h1 {
+        font-size: 22px;
+    }
+    #home-content-inner {
+        display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -52% 0 0 -25%;
+    font-size:
+    }
+
+    .btn-contact-us {
+        position: absolute;
+    top: 87%;
+    left: 50%;
     
+    }
+    #about {
+        margin-top: 205%;
+    }
+
+    #about .container {
+        padding-left:0 ;
+    }
     #services-01{
         background-color: black;
     background-size: cover;
-    padding: 75px;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-bottom: 0;
+    padding-right: 20px;
+    z-index: 0;
     }
     
     #team {
-        display:none;
+        display:flex;
+        padding: 0;
+
     }
     /* Testimonials */
     .testimonial h3 {
@@ -614,20 +766,27 @@ margin: -15% 0 0 -25%;
         font-size: 10px;
     }
     #info {
-        padding: 75px;
+        
         background: rgba(0, 0, 0, 0.2);
         color: #fff;
         z-index: 2;
+        display: none;
       }
     #info-01 {
         padding-bottom: 0; 
         display: none;
     }
     .service i {
-        color: #cd2027;
+        color: #2de063;
+        display: none;
     }
     .service  p {
         color: #DCDCDC;
+    }
+
+    .service h4{
+        border-bottom: 2px solid #2de063 ;
+        padding-bottom: 2px;
     }
     .side-icon {
         font-size: 20px;
@@ -635,11 +794,41 @@ margin: -15% 0 0 -25%;
     .blog-post {
         display: none;
     }
+    .nav-link-right {
+    
+        position: relative;
+        left: 0;
+    }
+    .serviceTeam h4 {
+        font-size: 17px;
+    }
     /* .r-tabs .r-tabs-accordion-title {        
         display: inline-block;
     }
     .r-tabs-accordion-title {
         margin-left:30px;
     } */
-
+    #contact {
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    #contact-left p {
+        margin: 0;
+    }
+    #blog {
+        padding: 0;
+    }
+    .blogPost {
+        margin-left: 0;
+    }
+    #arrow-down {
+        bottom: 5%;
+        display: inline;
+    }
+    .service p {
+        padding-right: 12px;
+        font-size:15px;
+    }
 }

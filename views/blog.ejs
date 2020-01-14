@@ -1,5 +1,5 @@
 <%- include("partials/header") %>
-<br><br>
+<br><br><br><br><br><br><br>
 <div class="container">
     
     <section class="blogPost" >
@@ -7,7 +7,7 @@
         <p>Вижте нашата гледна точка</p>
         <% if(currentUser && currentUser.isAdmin) { %>
         <p>
-            <a class="btn btn-general btn-yellow" href="/blog/new">Добави Блог Пост</a>
+            <a class="btn btn-general btn-color" href="/blog/new">Добави Блог Пост</a>
         </p>
         <% } %> 
     </section>
@@ -24,7 +24,7 @@
                                 <h4><%= blog.name %></h4>
                         </h1>
                         <p>
-                            <a href="/blog/<%= blog._id %>" class="btn btn-general btn-yellow">Научи повече</a>
+                            <a href="/blog/<%= blog._id %>" class="btn btn-general btn-color">Научи повече</a>
                         </p>
                 </div>
                 

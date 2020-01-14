@@ -74,8 +74,8 @@ $(function () {
             // Show white nav
             // $("nav").addClass("white-nav-top");
 
-           $("nav").addClass("bg-light");
-           $(".nav-link").addClass("text-dark");
+        //    $("nav").addClass("bg-light");
+        //    $(".nav-link").addClass("text-dark");
         
 
             // Show back to top button
