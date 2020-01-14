@@ -707,6 +707,7 @@
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
 
 @media (max-width: 320px) {
+ 
     .home-menu {
         margin-top:78.5%;
     }
@@ -830,5 +831,8 @@
     .service p {
         padding-right: 12px;
         font-size:15px;
+    }
+    body {
+        width: 100%;
     }
 }
