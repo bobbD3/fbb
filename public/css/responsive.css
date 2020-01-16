@@ -315,9 +315,10 @@
     }
 
     /* About */
-    #about {
+    /* #about {
         margin-top: 205%;
-    }
+        
+    } */
     .home-menu {
         margin-top: 47.5%;
         padding: 0;
@@ -327,7 +328,7 @@
         padding: 0;
     }
     #about  {
-        padding-top: 0;
+        padding-top: 85px;
     }
 
     #about .tab__content {
@@ -657,13 +658,14 @@
         border-top: 3px solid #f8f8f8;
     }
     #about {
-        margin-top: 155.5%;
+        margin-top: 140%;
+        padding-top: 85px;
     }
 
     .btn-contact-us {
         position: absolute;
     top: 87%;
-    left: auto;
+    left: 57%;
     background-color: #2de063;
     border: 1px solid #fff;
     color: #fff;
@@ -741,7 +743,8 @@
 
 @media (max-width: 375px) {
     #about {
-        margin-top: 175.5%;
+        margin-top: 140%;
+        padding-top: 85px;
     }
     .home-slideshow {
         margin-top: 0%;
