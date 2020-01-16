@@ -350,7 +350,7 @@
     /* Medium Content Box */
     .content-box-md {
         padding: 10px 0;
-        margin-top: 70px;
+        margin-top: 0px;
     }
     .about-item {
         padding: 55px 30px;
@@ -589,6 +589,10 @@
 
 @media (max-width: 480px)
  {
+    .content-box-md {
+        padding: 10px 0;
+        margin-top: 0px;
+    }
     .home-menu {
         margin-top: 60.5%;
         padding: 0;
@@ -707,6 +711,10 @@
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
 
 @media (max-width: 320px) {
+    .content-box-md {
+        padding: 10px 0;
+        margin-top: 0px;
+    }
     #home-overlay {
         height: 100vh;
     }
