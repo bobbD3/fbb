@@ -267,6 +267,9 @@
     border: 1px solid #fff;
     color: #fff;
     }
+    .home-slideshow {
+        margin-top: 0%;
+    }
 }
 
 
@@ -604,6 +607,9 @@
     border: 1px solid #fff;
     color: #fff;
     }
+    .home-slideshow {
+        margin-top: 0%;
+    }
     
 }
 
@@ -728,11 +734,17 @@
         bottom: 5%;
         display: inline;
     }
+    .home-slideshow {
+        margin-top: 0%;
+    }
 }
 
 @media (max-width: 375px) {
     #about {
         margin-top: 175.5%;
+    }
+    .home-slideshow {
+        margin-top: 0%;
     }
 
 }
