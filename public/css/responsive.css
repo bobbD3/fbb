@@ -316,7 +316,7 @@
 
     /* About */
     #about {
-        margin-top: 205%;
+        margin-top: 155%;
         padding-top: 85px;
     }
     .home-menu {
@@ -655,7 +655,7 @@
         border-top: 3px solid #f8f8f8;
     }
     #about {
-        margin-top: 205%;
+        margin-top: 150%;
         padding-top: 85px;
     }
 
@@ -740,7 +740,8 @@
 
 @media (max-width: 375px) {
     #about {
-        margin-top: 205%;
+        margin-top: 145%;
+        padding-top: 85px;
     }
     .home-slideshow {
         margin-top: 0%;
@@ -790,13 +791,14 @@
     border: 1px solid #fff;
     color: #fff;
     }
-    #about {
-        margin-top: 205%;
-    }
 
-    #about  {
-        padding-left:0 ;
-    }
+        #about {
+            margin-top: 170%;
+            padding-top: 85px;
+            padding-left:0 ;
+        }
+   
+
     #services-01{
         background-color: black;
     background-size: cover;
