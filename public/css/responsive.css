@@ -137,6 +137,14 @@
     width: 50%;
     margin: -15% 0 0 -25%;
     }
+    .btn-contact-us {
+        position: absolute;
+    top: 87%;
+    left: auto;
+    background-color: #2de063;
+    border: 1px solid #fff;
+    color: #fff;
+    }
     
 }
 
@@ -250,6 +258,14 @@
     
         position: relative;
         left: 0;
+    }
+    .btn-contact-us {
+        position: absolute;
+    top: 87%;
+    left: auto;
+    background-color: #2de063;
+    border: 1px solid #fff;
+    color: #fff;
     }
 }
 
@@ -580,6 +596,14 @@
     #contact-left p {
         margin: 0;
     }
+    .btn-contact-us {
+        position: absolute;
+    top: 87%;
+    left: auto;
+    background-color: #2de063;
+    border: 1px solid #fff;
+    color: #fff;
+    }
     
 }
 
@@ -633,7 +657,11 @@
     .btn-contact-us {
         position: absolute;
     top: 87%;
-    left: 58%;
+    left: auto;
+    background-color: #2de063;
+    border: 1px solid #fff;
+    color: #fff;
+    }
     /* Generic */
     .vertical-heading h2 {
         font-size: 22px;
