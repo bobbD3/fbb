@@ -94,7 +94,7 @@ section {
 }
 
 #status {
-    background-image: url(/public/img/preloader3.gif);
+    background-image: url(../img/preloader3.gif);
     background-repeat: no-repeat;
     width: 70px;
     height: 70px;
