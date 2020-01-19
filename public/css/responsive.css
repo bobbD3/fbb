@@ -270,6 +270,14 @@
     .home-slideshow {
         margin-top: 0%;
     }
+    .blogImg {
+        margin-top: 84px;
+        position: fixed ;
+        height: 95%;
+        width: 100vh;
+        z-index: -1;
+    
+    }
 }
 
 
@@ -608,6 +616,15 @@
     .home-slideshow {
         margin-top: 0%;
     }
+    .blogImg {
+        margin-top: 84px;
+        position: relative ;
+        height: 95%;
+        width: 100vh;
+        z-index: -1;
+    
+    }
+
     
 }
 

@@ -90,7 +90,7 @@
                           </div> -->
         </div>
     </div>
-</nav><br><br><br><br><br><br>
+</nav>
 
 <body>
     <!-- <div id="preloader">
@@ -112,23 +112,27 @@
         </div>
     </section>
     <header>
-        <div class="container">
+        <div class="">
             <div class="row">
-                <div class='col-md-9'>
+                <div class='col-md-6'>
+
+                    <img class="img-fluid blogImg" alt="Responsive image" src="<%= blog.image %>">
+
+                </div>
+                <div class='col-md-6'>
                     <div class="img-thumbnail blogPost">
-                        <img class="img-fluid" alt="Responsive image" src="<%= blog.image %>">
+                    
                         <div class='caption-full'>
-                            <h1 style=" flex-wrap: wrap" class="shadow">
+                            <h1 style=" flex-wrap: wrap" class="shadow blogTopSpase">
                                 <%= blog.name %>
                             </h1>
                             <a class="btn btn-general btn-color" href="/blog">Обратно</a>
                             <br><br>
                             <p class="shadow" style="white-space: pre-wrap"><%= blog.description %></p>
                         </div>
-
                         <div class="container">
                             <div class="row">
-
+        
                                 <div class="blogButton ">
                                     <div class="form-group">
                                         <p>
@@ -139,25 +143,23 @@
                                             <a class="btn btn-general btn-green"
                                                 href="/blog/<%= blog._id%>/edit">Редакция</a>
                                         </p><br>
-
+        
                                         <form style="margin:  7.5%;" id="delete-form"
                                             action="/blog/<%= blog._id %>?_method=DELETE" method="POST">
                                             <button class="btn btn-green">Изтриии   </button>
                                         </form>
                                         <% } %>
                                     </div>
-
-
+        
+        
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
-                <div class='col-md-3'>
 
 
-
-                </div>
             </div>
     </header>
 
