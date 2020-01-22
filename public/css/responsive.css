@@ -148,6 +148,10 @@
     .text-muted {
         display: none;
     }
+    .home-stats-item h3 {
+        line-height: 45px;
+    }
+
     
 }
 
@@ -285,6 +289,10 @@
     .text-muted {
         display: none;
     }
+    .home-stats-item h3 {
+        line-height: 45px;
+    }
+
 }
 
 
@@ -640,6 +648,10 @@
     .text-muted {
         display: none;
     }
+    .home-stats-item h3 {
+        line-height: 45px;
+    }
+
 
     
 }
@@ -770,6 +782,10 @@
     .home-slideshow {
         margin-top: 0%;
     }
+    .home-stats-item h3 {
+        line-height: 45px;
+    }
+
 }
 
 @media (max-width: 375px) {
@@ -930,5 +946,9 @@
     .text-muted {
         display: none;
     }
+    .home-stats-item h3 {
+        line-height: 45px;
+    }
+
 
 }
