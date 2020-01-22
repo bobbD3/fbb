@@ -145,6 +145,9 @@
     border: 1px solid #fff;
     color: #fff;
     }
+    .text-muted {
+        display: none;
+    }
     
 }
 
@@ -162,6 +165,7 @@
     /* Home */
     #home-heading h1 {
         font-size: 25px;
+        line-height: 35px;
     }
     #home-text p {
         font-size: 13px;
@@ -278,6 +282,9 @@
         z-index: -1;
     
     }
+    .text-muted {
+        display: none;
+    }
 }
 
 
@@ -304,6 +311,7 @@
     /* Home */
     #home-heading h1 {
         font-size: 22px;
+        line-height: 35px;
     }
     #home-text p {
         font-size: 13px;
@@ -328,7 +336,7 @@
         padding-top: 85px;
     }
     .home-menu {
-        margin-top: 47.5%;
+        margin-top: 0.5%;
         padding: 0;
     }
 
@@ -500,9 +508,13 @@
         font-size: 24px;
     }
     /* Blog */
+    #blog {
+        margin-top: 250%;
+    }
     #blog-left {
         text-align: center;
         margin-bottom: 30px;
+        
     }
     .blog-post {
         display: none;
@@ -588,6 +600,7 @@
     }
     #blog {
         padding: 0;
+        margin-top: 250%;
     }
     .blogPost {
         margin-left: 0;
@@ -624,6 +637,9 @@
         z-index: -1;
     
     }
+    .text-muted {
+        display: none;
+    }
 
     
 }
@@ -639,7 +655,7 @@
         margin-top: 0px;
     }
     .home-menu {
-        margin-top: 60.5%;
+        margin-top: 0.5%;
         padding: 0;
     }
     #team {
@@ -661,6 +677,7 @@
 
     #home-heading h1 {
         font-size: 24px;
+        line-height: 35px;
     }
     #home-text p {
         font-size: 11px;
@@ -763,6 +780,9 @@
     .home-slideshow {
         margin-top: 0%;
     }
+    .text-muted {
+        display: none;
+    }
 
 }
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
@@ -776,13 +796,14 @@
         height: 100vh;
     }
     .home-menu {
-        margin-top:78.5%;
+        margin-top:0.5%;
     }
     #home-heading {
         padding: 10px;
     }
     #home-heading h1 {
         font-size: 22px;
+        line-height: 35px;
     }
     #home-content-inner {
         display: table-cell;
@@ -893,6 +914,7 @@
     }
     #blog {
         padding: 0;
+        margin-top:250%
     }
     .blogPost {
         margin-left: 0;
@@ -904,6 +926,9 @@
     .service p {
         padding-right: 12px;
         font-size:15px;
+    }
+    .text-muted {
+        display: none;
     }
 
 }
