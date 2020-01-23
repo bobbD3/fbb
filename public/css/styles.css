@@ -513,6 +513,7 @@ nav ul li a:focus {
 }
 
 .btn-color-side {
+    height: auto;
     width: auto;
     color: #fff;
     border: 1px solid #2de063;
