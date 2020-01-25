@@ -301,9 +301,7 @@
 
 @media (max-width: 767px) {
     /* Navigaiton */
-    #team {
-        display: none;
-    }
+
 
     .navbar {
         padding: 0px 0;
@@ -517,7 +515,7 @@
     }
     /* Blog */
     #blog {
-        margin-top: 280%;
+        margin-top: 0%;
     }
     #blog-left {
         text-align: center;
@@ -608,7 +606,7 @@
     }
     #blog {
         padding: 0;
-        margin-top: 280%;
+        margin-top: 0%;
     }
     .blogPost {
         margin-left: 0;
@@ -671,8 +669,8 @@
         padding: 0;
     }
     #team {
-        display: flex;
-        padding: 0;
+        display: block;
+        padding: 10px;
     }
     #home-content-inner {
         display: table-cell;
@@ -864,8 +862,8 @@
     }
     
     #team {
-        display:flex;
-        padding: 0;
+        display:block;
+        padding: 10;
 
     }
     /* Testimonials */
@@ -930,7 +928,7 @@
     }
     #blog {
         padding: 0;
-        margin-top:280%
+        margin-top:0%
     }
     .blogPost {
         margin-left: 0;
