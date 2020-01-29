@@ -978,5 +978,9 @@
     #midSection {
         display: none;
     }
+    .line-left,
+    .line-right {
+        display: none;
+    }
 
 }

@@ -68,9 +68,8 @@ Colors:
 
 html,
 body {
-    height: 100%;
+    height: 100vh;
     width: 100%;
-    overflow-wrap: break-word;
     
 }
 
@@ -271,106 +270,11 @@ nav ul li a:focus {
     height: 115vh;
     
 }
-
-/* #landing-header {
-    z-index: 1;
-    position: relative;
-    text-align: center;
-    padding-top: 40vh;
-  }
-  
-  #landing-header h1 {
-    color: #fff;
-  } */
-  
-  .home-slideshow { 
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -2;
-    list-style: none;
-    margin-top: 85px;
-    padding: 0;
-  }
-  
-  .home-slideshow li { 
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    opacity: 0;
-    z-index: 0;
-    animation: imageAnimation 50s linear infinite; 
-  }
-  
-  .home-slideshow li:nth-child(1) { 
-    background-image: url(https://lh3.googleusercontent.com/WW-NXs4pziL_3QnjwetPhQ3wOJCzqIc3hUd4sqGFm2zOwCqtFTXY7az1nnlaJ9Ws725en63_jd4gvUd6k6JSVdkQHGVrScbdNnIpRqC3MtlMD_58zUbWUZdhsZ577_pvASJiECRPh_-kMiyfFhhS-hLmOFCo3JTlJK2C9TBJW-GFvNC4lncGozU4X0-it1qFv6jGsmD_pDCtns98HniqXKLAJXNqmImT03BuptcrF_B3xSCSqKU-eqMb6lu1QhVi74EX4AsVMxzyQL6nPkP5O2zK63wEB7HGj4QjiLkOA6QBKlk2tZepyosCprYBLGq4xm6Ygg8e9bLHsXSGSDBXBdpRCnRBoZOFjXRwP0RxePdoEgB9S-oyhjYhjPVilKdjgXdWIYkSBI8pANYOzWTvCd4taRqj97B_0LaPSMrD-TP8KnSxs0vqlSYPlbjJCaSvV7XLFmM84nHvKslINOROKJpUGE-2tUUKUGP3hkGE46r5F3QMmd6p9U8zieoEBHCQ5j-whwf5mri1lg52Cyk5ec-49lqb2BhYZmJ7opf8Q_nLPqNmd6lKNUE0sQrCSfxse911ibYGjR8JHs_AIxgVLJ105xhF46dRFIZGSrm3NraNnPgI7LmAp5dwK3Ua282Tp5Xb8xQKcWZj4vRIEwjeW5i5Bh-XgLyuQjAwDFj3sWUsLlLW0GhNuwI=w1314-h877-no);
-  }.home-slideshow li:nth-child(2) { 
-    background-image: url(https://lh3.googleusercontent.com/suNf33oYI490RVeoCgLSM6N50VX3_-sKJ5Z1HUucSucLbtbLjnJWODRh48WzS9nra4skgJ-RebvfOZ_ZEhDL6cp6s1dsrwLNnaVNwdx3BNgvJh5qVy8alRFQsSN45-pRiLtUjSP3ILjb4zJ2_0icc0772BeFeoT514svLGiZwIbqf9jOtHT3fOXf0Jf0q0h1un28-G4P48Dvg3WFjyo1Tiy9f9VlH3QKRz8zPpIyeNF5N3euuYX83Yqq8s0ZKI2awetvBXQLLRLXmT4CnGLKS6l2WH8-GxwRo6N4ZL5pAQVM-vdROXUpftqMyhJ6TjBIK0KVMjXL5cfHEfKRA5LfMO2DLD86_8pi1jYw9RG_F26fZz11Cl-WAWrhSFFanll3gFJFnPiihruldtM_1lcCHvpKmnmAb5UGmzRRUtnthR0S6C_dkH0pfyjt7GWEIMP6ml9L4KoafrBNBaRg1CzattW8LBeUj5RWG68mpAhefSMVuBuLV2GmCSjVv0mWPRBpYdfBgTpwILQ2iOjzvwCwAxsvA4Up2F5Aja9sU4Yy-xMYks9dCFUHqFUemVwwGHSKNUL5NnzViZDfIAGqKwmzJUBQJh6JYZLgpYUEvUC4SuFsiyeiyJsXOAoageXCbBpBdtZZyxeI9Q-eX_TukivZ0DpWTctAf0VXdQ3rhHbD3oi_iozEU1UjvIw=w1315-h877-no);
-    animation-delay: 10s; 
-  }
-  .home-slideshow li:nth-child(3) { 
-    background-image: url(https://lh3.googleusercontent.com/TQCRpoq8tTMuKSwkuy_loaTaPYOHIJYw0v3xdTzHtq5cS6maUGP1lOnoC4R1UEBW6YennuSF6lRrr0fZ0tOoiemH1KeVdP6mCzUv_U3dCyYCGisQ2FGwT_PIr0GBb4mq72sVnhw6unD23brSbsH9B4x6Yf-EP2PZxQt_GYuJjHsC1DEDso49j-XYMTKdejb9K5Vipb-1OGN-yGM5BLyQAXvT5BYcf5BnqZEHkxgZaHN59LE3i7FpqsMj4XtVuXuOHgJ59Nf_iPv_a9SEMYXJCoe7VW8Fp1pMTaRiSnoJ1KN7B_qoCjnRlBtlXI5EUtWmOshRPZNuyRZaS5WbnHFkRK3ThTDCt9L7GLjE0_WFQBR9p9jeILvKZVCeetiNhqZagoBtKSq5UWdwg5l-kWn1bW5ikYPWb_mK0YGMDoUaxyZEvDszqC_L8p1FTwC9VypvvfC4Vuyj4gmtiAEEXjtJDpbCrN6NL-IrSDkJnxYb26u7fRsnpP5ZtfvCbT8KRAXtBoKyx_YdW1WOoI9a16mPbCgyq1phGS6xFpK9sNtgNv7CROQ5HipuxTJ_KqXo0r96FEEtYS_glqXj2YehAthqx0gy7zWnigv_X1tCVmuwaFmdy1LvWZypaOutPlrrWf-_kM39szbVm59a3bIpY2EqxcRO3AAN9ny2H4xBzOJrqGfQjWrXIlZMH0o=w1314-h877-no);
-    animation-delay: 20s; 
-  }
-  .home-slideshow li:nth-child(4) { 
-    background-image: url(https://lh3.googleusercontent.com/UqqGDFL-UYuXa1Drf4Ys32v5Lv1S6W_UTlcRlFuL4hrcUbRksSNPO7WTYAu5yVMz_WpbQ6sQAg652iGYIUzRv4yKPjN0wma7zSYbScX2_JMYijuYh9PScCu0SL6I1znUb9d24rdAw7KMQzLf-nRvSzZ8VP6QnYkmnmqQCpUERut4_cS2TddxU1YovahokFw3BYbZdlkWz7YcAQiXgNOLhYQ90k37HGPXgX_raD_MiK2daahiDciRyjmqTpyf8h6udbG1OiKPE-7VL1WSVO1JiGHNqaPKZT-1A_cMjvUV9yBRBYzSdufPkR-r9yAJxqSG--PTi9K15EOO0XClgbtEdUuGJtJvxy8fdGQ_qyVcDCaJ6wwIyBM95ShGUCJ6-UyWDjGV3TQktpW6g5gXIG7k3SmyHrJU2f9f4K1R9fCn9Tps9_dFyvyH4McQAYrywOVqp8-YE1SeArGHR2r_2mDJe6FezLoKGu7vz-PY3TXR6cHGLKyLH-IHPSQICbSzD2ujVCciVi8kSBVIs_ITPZCYwLxuwv4opLXZdVEB4_BWBs5rSyBVWDfnWbR2d2h20g5ShDFxFJXvHaPDPV0b-3k9E3LW4QdS2O6D_JIkP7JflICzwrdM4miYgMFWxHBO_nxwzko_sSc84hvaBMnFdtOAVPgJw_V0OWF3EZdQzDG5qK0WWwYSBJlkpiw=w1314-h877-no);
-    animation-delay: 30s; 
-  }
-  .home-slideshow li:nth-child(5) { 
-    background-image: url(https://lh3.googleusercontent.com/_AWu5U5_zSsQYMELxNtZWLYabjVldJxYpEjuQn8pW-iu1j0N4kPes-czMSdm-RR9MMGGNOA0Y857xTKQUXb_D5aGjboeP-AwpUdipT07L97uCKkc_uv2UFA1eLJbECYyJNo3Iz8XD8JAnDnMVSjMQPtwDJEg7_LJ3RpwLvrgjJpkrIg7rxSoNp082KqVUsM5MFrt_K5hWrA8V9JZN9pkzPdortMv6UT3iXv0l_sZUikl0lLzH9MwYpiCFY3y_Jbvf3a845aV3LZe_IGMGBTu_u3vJO6Urvw87dfJuDMuUkXjty2hx6CGhCIcVT5OHUWfhPTE-Lqn6sgptPsTWry-VGXJHR62V317JWhvAUB2Zh4vQ7Nj8q5ajgRRT46GXkcj1UODRPIDdERGcmuYo5vPT-0NVQKvZhCarT041-529ttKTjyiuIgElJjDpTtDfZmFl-jyIu5NZ5Vf6ZJ29nRyBD69pdjzFMboBgpZxADmzibm4lduQN6k-M4VpRBlPR66WywvqEoqs9ufcazaJNU_IPr-R0VkI7ItHZNp5s9eu3Vo_0MZ4OJzmgyTsrXCzrm3KEkEnPX2H-4TA-sQOYGbAMmVeGw6m6TmWg0qQOvRlm3Wgs2w10AouRXKca--L1AtQ7N5nLKZptm1AN-rWZuRicBXGfoaLYv4c0sjCxys9h9Gkz8kkdcsuzA=w1315-h877-no);
-    animation-delay: 40s; 
-  }
-  
-  @keyframes imageAnimation { 
-    0% { 
-      opacity: 0; 
-      animation-timing-function: ease-in;
-    }
-    10% {
-      opacity: 1;
-      animation-timing-function: ease-out;
-    }
-    20% {
-      opacity: 1;
-    }
-    30% {
-      opacity: 0;
-    }
-  }
-  
-  /* Older browser support - .no-cssanimations class added by modernizr */
-  .no-cssanimations .home-slideshow li {
-      opacity: 1;
-  }
-  
-
-/* #home-bg-video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    min-height: 100%;
-    min-width: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-    background: url("../video/poster.jpg") no-repeat;
-    background-size: cover;
-} */
-
 #home-overlay {
     /* background-color: rgba(35, 35, 100, 0.7); */
     width: 100%;
     height: 100vh;
-    position: static ;
+    position: fixed ;
     top: 0;
     left: 0;
     z-index: -1;
@@ -380,8 +284,7 @@ nav ul li a:focus {
 
 #home-content {
     width: 100%;
-    height: 100%;
-    display: table;
+    height: 100%; 
 
 }
 
@@ -730,7 +633,7 @@ nav ul li a:focus {
 }
 
 .content-box-md {
-    padding: 50px 0;
+    padding: 0px 0;
 }
 
 /* ===================================
@@ -780,6 +683,9 @@ nav ul li a:focus {
     margin: 0;
 
 }
+.icolor {
+    color: #f4f4f4;
+}
 
 /* ===================================
            newSurvice 
@@ -787,6 +693,9 @@ nav ul li a:focus {
 
 #newSurvice {
     min-width: 280px;
+}
+#midSection {
+    padding: 40px;
 }
 
 /* ===================================
@@ -1071,87 +980,6 @@ font-weight: 500;
 /* ===================================
             Services 01
 ==================================*/
-#services-01 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/other/victor-freitas-1558124-unsplash.jpg");
-    background-size: cover;
-    padding: 75px;
-}
-
-
-#services-01 img {
-    margin: 60px 0;
-}
-
-#service {
-    margin: 35px 0;
-
-}
-
-.text-service p {
-    text-align: left;
-    font-size: 16px;
-    -webkit-transition: all 0ms linear;
-    transition: all 0ms linear;
-}
-
-.service .icon {
-    color: #dcd6d6;
-    font-size: 42px;
-    margin: 0;
-    -webkit-transition: all 400ms linear;
-    transition: all 400ms linear;
-}
-
-.service:hover .icon {
-    color: #2de063;
-    -webkit-transform: translateX(-20px);
-    transform: translateX(-20px);
-}
-
-/* .text-service:hover p {
-    font-size: 21px;
-    font-weight: bold;
-    color: ;
-} */
-
-.service h5 {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #fff;
-    margin: 0 0 6px 0;
-
-
-}
-
-.service:hover h5 {
-    color: #cd2027;
-}
-
-.service h4 {
-    font-size: 27px;
-    margin: 10px 0 10px 0;
-    color: #fff;
-
-}
-
-#services-01 h2 {
-    color: #fff;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 15px;
-    padding-left: 35px;
-}
-
-.service p {
-    line-height: 150%;
-    color: #fff;
-    padding-bottom: 10px;
-    font-size: 16px;
-}
-
-.service .content-box-lg {
-    margin: 0 -50px;
-}
 
 /* ===================================
    About (Responsive tabs)
