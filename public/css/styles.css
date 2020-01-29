@@ -41,6 +41,25 @@ Colors:
     z-index: 6;
     font-size: 14px;
   }
+  .line-left{
+    width: 102px;
+    height: 3px;
+    border-bottom: 3px solid #2de063;
+    position: absolute;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+
+    .line-right{
+        width: 102px;
+        height: 3px;
+        border-bottom: 3px solid #2de063;
+        position: absolute;
+        margin-top: 0;
+        margin-right: 20px;
+        margin-left: -120px;
+        }
 
 /* ===================================
             HTML Body 
@@ -573,6 +592,26 @@ nav ul li a:focus {
     
 }
 
+.btn-contact-us-midSection {
+    width: 90px;
+    color: #fff;
+    border: 1px solid #1da842;
+    min-width: 160px;
+    margin-top: 24px;
+    border: 1px solid #2de063;
+    transform: skewX(165deg);
+    font-weight: normal;
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    background-color: #2de063;
+    border: 1px solid #fff;
+    flex-wrap: wrap;
+    padding: 7px;
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
 .btn-color:hover,
 .btn-color:focus {
     color: #fff;
@@ -923,7 +962,7 @@ font-style: italic;
 .team-logo-h3 {
     font-size: 24px;
 letter-spacing: 0px;
-line-height: 94px;
+line-height: 7px;
 color: #2de063;
 font-family: "Fira Sans Condensed";
 font-weight: 500;
@@ -1797,6 +1836,11 @@ font-weight: 500;
     height: 95%;
     width: 100vh;
     z-index: -1;
+}
+
+.blogImgSize {
+    width: auto;
+    height: auto;
 }
 
 .blogTopSpase {
