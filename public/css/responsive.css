@@ -292,6 +292,9 @@
     .home-stats-item h3 {
         line-height: 45px;
     }
+    #midSection {
+        display: none;
+    }
 
 }
 
@@ -655,7 +658,9 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-
+    #midSection {
+        display: none;
+    }
 
     
 }
@@ -789,6 +794,9 @@
     .home-stats-item h3 {
         line-height: 45px;
     }
+    #midSection {
+        display: none;
+    }
 
 }
 
@@ -809,7 +817,9 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-
+    #midSection {
+        display: none;
+    }
 }
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
 
@@ -965,6 +975,8 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-
+    #midSection {
+        display: none;
+    }
 
 }
