@@ -97,9 +97,16 @@ router.get('/forgot', function(req, res) {
       },
       function(token, user, done) {
         var smtpTransport = nodemailer.createTransport({
-          service: 'Gmail', 
+          service: 'smtp.gmail.com',
+          port: 465, 
+          secure: true,
           auth: {
+            type: 'OAuth2',
             user: 'functionalbodiesbg@gmail.com',
+            clientId: '000000000000-xxx0.apps.googleusercontent.com',
+            clientSecret: 'XxxxxXXxX0xxxxxxxx0XXxX0',
+            refreshToken: '1/XXxXxsss-xxxXXXXXxXxx0XXXxxXXx0x00xxx',
+            accessToken: 'ya29.Xx_XX0xxxxx-xX0X0XxXXxXxXXXxX0x',
             pass: process.env.GMAILPW
           }
         });
@@ -161,10 +168,17 @@ router.get('/forgot', function(req, res) {
       },
       function(user, done) {
         var smtpTransport = nodemailer.createTransport({
-          service: 'Gmail', 
+          service: 'smtp.gmail.com',
+          port: 465, 
+          secure: true,
           auth: {
+            type: 'OAuth2',
             user: 'functionalbodiesbg@gmail.com',
-            pass:  process.env.GMAILPW
+            clientId: '000000000000-xxx0.apps.googleusercontent.com',
+            clientSecret: 'XxxxxXXxX0xxxxxxxx0XXxX0',
+            refreshToken: '1/XXxXxsss-xxxXXXXXxXxx0XXXxxXXx0x00xxx',
+            accessToken: 'ya29.Xx_XX0xxxxx-xX0X0XxXXxXxXXXxX0x',
+            pass: process.env.GMAILPW
           }
         });
         var mailOptions = {
