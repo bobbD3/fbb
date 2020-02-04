@@ -66,7 +66,6 @@ router.get("/logout", function (req, res) {
     req.flash("success", "Logged you out!")
     res.redirect("/");
 });
-
 //forgot Password
 router.get('/forgot', function(req, res) {
     res.render('forgot');
@@ -97,17 +96,17 @@ router.get('/forgot', function(req, res) {
       },
       function(token, user, done) {
         var smtpTransport = nodemailer.createTransport({
-          service: 'smtp.gmail.com',
+          host: 'smtp.gmail.com',
           port: 465, 
           secure: true,
           auth: {
             type: 'OAuth2',
             user: 'functionalbodiesbg@gmail.com',
-            clientId: '000000000000-xxx0.apps.googleusercontent.com',
-            clientSecret: 'XxxxxXXxX0xxxxxxxx0XXxX0',
-            refreshToken: '1/XXxXxsss-xxxXXXXXxXxx0XXXxxXXx0x00xxx',
-            accessToken: 'ya29.Xx_XX0xxxxx-xX0X0XxXXxXxXXXxX0x',
-            pass: process.env.GMAILPW
+            clientId: '1078757920068-b8c87fckhddmih6fpam9v0c14q24bns6.apps.googleusercontent.com',
+            clientSecret: 'ns1A3benyPq3sJqcP0_K5ylQ',
+            refreshToken: '1//040h2B5ujaqNlCgYIARAAGAQSNwF-L9Ir2-3azxRs12CmudmETekyBL40NyV6AUROCva5d0y1enVMunfYr1szgX82aeQD_XQVYpk',
+            accessToken: 'ya29.Il-8B3CM4g2PAtBVqKeW4UF5MYk4tqYQs0oG7Wpu_EIFLKMmbkv0RcVst-GMwJ2kimfMCezq2dVOmvzUUzuTNYaztrS3fj8qMUBq3e4Xjm1M73qFYYOO--mGbaeE4SZMtA',
+            // pass: process.env.GMAILPW
           }
         });
         var mailOptions = {
@@ -168,17 +167,17 @@ router.get('/forgot', function(req, res) {
       },
       function(user, done) {
         var smtpTransport = nodemailer.createTransport({
-          service: 'smtp.gmail.com',
+          host: 'smtp.gmail.com',
           port: 465, 
           secure: true,
           auth: {
             type: 'OAuth2',
             user: 'functionalbodiesbg@gmail.com',
-            clientId: '000000000000-xxx0.apps.googleusercontent.com',
-            clientSecret: 'XxxxxXXxX0xxxxxxxx0XXxX0',
-            refreshToken: '1/XXxXxsss-xxxXXXXXxXxx0XXXxxXXx0x00xxx',
-            accessToken: 'ya29.Xx_XX0xxxxx-xX0X0XxXXxXxXXXxX0x',
-            pass: process.env.GMAILPW
+            clientId: '1078757920068-b8c87fckhddmih6fpam9v0c14q24bns6.apps.googleusercontent.com',
+            clientSecret: 'ns1A3benyPq3sJqcP0_K5ylQ',
+            refreshToken: '1//040h2B5ujaqNlCgYIARAAGAQSNwF-L9Ir2-3azxRs12CmudmETekyBL40NyV6AUROCva5d0y1enVMunfYr1szgX82aeQD_XQVYpk',
+            accessToken: 'ya29.Il-8B3CM4g2PAtBVqKeW4UF5MYk4tqYQs0oG7Wpu_EIFLKMmbkv0RcVst-GMwJ2kimfMCezq2dVOmvzUUzuTNYaztrS3fj8qMUBq3e4Xjm1M73qFYYOO--mGbaeE4SZMtA',
+            // pass: process.env.GMAILPW
           }
         });
         var mailOptions = {

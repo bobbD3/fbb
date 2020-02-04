@@ -166,8 +166,12 @@
     .line-right {
         display: none;
     }
-
+    .btn-contact-us-maps {
+        display: none;
+    }
 }
+
+
 
 /* Small Devices (Portrait Tablets & Small Desktops) */
 
@@ -342,7 +346,11 @@
     .line-right {
         display: none;
     }
+    .btn-contact-us-maps {
+        display: none;
+    }
 }
+
 
 
 
@@ -789,8 +797,11 @@
     .line-right {
         display: none;
     }
-
+    .btn-contact-us-maps {
+        display: none;
+    }
 }
+
 
 
 
@@ -945,8 +956,12 @@
     #midSection {
         display: none;
     }
-
+    .btn-contact-us-maps {
+        display: none;
+    }
 }
+
+
 
 @media (max-width: 375px) {
     #about {
@@ -977,7 +992,11 @@
     .line-right {
         display: none;
     }
+    .btn-contact-us-maps {
+        display: none;
+    }
 }
+
 
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
 
@@ -1014,7 +1033,7 @@
         height: 30%;
         width: 50%;
         margin: -52% 0 0 -25%;
-        font-size:
+       
     }
 
     .home-slideshow {
@@ -1167,5 +1186,7 @@
     .line-right {
         display: none;
     }
-
+    .btn-contact-us-maps {
+        display: none;
+    }
 }

@@ -63,7 +63,7 @@
 
   <nav class="navbar navbar-expand-lg fixed-top shadow-nav ">
     <div class="container">
-      <a class="navbar-brand" href="/#">
+      <a class="navbar-brand" href="/">
         <img src="/img/logo2.png" alt="logo" width="55">
       </a>
       <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -73,18 +73,18 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="/#">НАЧАЛО</a>
+            <a class="nav-link" href="/">НАЧАЛО</a>
           </li>
           <li>
             <a class="nav-link text-muted" style="color: rgba(255, 255, 255, 0.397)"  >/</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/#">УСУЛУГИ </a>
+            <a class="nav-link" href="/services">УСУЛУГИ </a>
           </li>
           <li>
             <a class="nav-link text-muted" style="color: rgba(255, 255, 255, 0.397)"  >/</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="/#">ПРОГРЕСИИ</a>
           </li>
           <li>
@@ -95,19 +95,68 @@
           </li>
           <li>
             <a class="nav-link  text-muted" style="color: rgba(255, 255, 255, 0.397)"  >/</a>
-          </li>
+          </li> -->
           <!-- <li class="nav-item">
             <a class="nav-link" href="#">Магазин</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="/#contact">КОНТАКТИ</a>
+            <a class="nav-link" href="/contact">КОНТАКТИ</a>
           </li>
           <li>
             <a class="nav-link  text-muted" style="color: rgba(255, 255, 255, 0.397)"  >/</a>
           </li>
 
           <li>
-            <a class="btn-contact-us " href="/#contact">CONTACT US</a>
+  
+            <button data-popup-target="#popup" class="btn-contact-us">CONTACT US</button>
+            <div class="popup" id="popup">
+                <div class="popup-header">
+                    <div class="popup-title">Functioanl bodies</div>
+                    <button data-close-button class="close-button">&times;</button>
+                    
+                </div>
+                
+                <div class="popup-body">
+                  <form method="POST" action="/send-email">
+                    <h4>Свържете се с нас</h4>
+                    <p>Имате въпроси? С радост ще Ви отговорим. Пратите ни съобщение и ще се свържем с вас.</p>
+       
+                    <div class="row">
+
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Име" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Имейл" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="phone" name="phone" placeholder="Телефон" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Запитване" required>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="message" name="message" placeholder="съобщение" ></textarea>
+                    </div>
+
+                    <div id="submit-btn">
+                        <button class="btn btn-general btn-color" title="Submit" role="button">Изпрати</button>
+                    </div>
+
+                </form>
+                </div>
+            </div>
+            <div class="" id="overlay"></div>
           </li>
          
           <!-- <% if(!currentUser){ %>
@@ -141,18 +190,4 @@
 
 
 
-  <section id="SideNav">
-    <div id="mySidenav" class="sidenav">
-      <a href="https://www.facebook.com/functionalbodiesbg/" id="FaceBook" target="_parent"><i
-          class="fab fa-facebook-square side-icon"></i></a>
-      <a href="https://www.instagram.com/functionalbodiesbg/" id="Instagram" target="_parent"><i
-          class="fab fa-instagram side-icon"></i>
-      </a>
-      <a href="https://www.youtube.com/channel/UC2WmMlDwRFi8rYCZRGkhG1g" id="YouTube" target="_parent"><i
-          class="fab fa-youtube side-icon" aria-hidden="true"></i>
-
-      </a>
-      <a href="/#contact" id="PhoneContact"><i class="fas fa-map-marker-alt"></i>
-      </a>
-    </div>
-  </section>
+  
