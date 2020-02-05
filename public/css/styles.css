@@ -234,7 +234,7 @@ nav ul li a:focus {
 
 #FaceBook {
     position: relative;
-    left: 38%;
+    left: 39%;
     top: 0%;
     padding-bottom: 50px;
     font-size: 44px;
@@ -243,7 +243,7 @@ nav ul li a:focus {
 
 #Instagram {
     position: relative;
-    left: 46%;
+    left: 44%;
     top: 0%;
     font-size: 44px;
 
@@ -251,7 +251,7 @@ nav ul li a:focus {
 
 #YouTube {
     position: relative;
-    left: 53%;
+    left: 49%;
     top: 0%;
     font-size: 44px;
     
@@ -631,7 +631,7 @@ font-weight: 400;
     transform: skewX(165deg);
     font-weight: normal;
     position: absolute;
-    left: 38%;
+    left: 36%;
     background-color: #38387f;
     border-bottom: 1px solid #38387f;
     border-left: 1px solid #38387f;
