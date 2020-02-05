@@ -94,12 +94,17 @@ app.post('/send-email', (req,res) => {
       res.render('send-email')
       });
 
+      
 app.use('/services', (req,res)=> {
     res.render('services')
 })
 
 app.use('/contact', (req,res)=> {
     res.render('contact')
+})
+
+app.use('/cookies', (req,res)=> {
+    res.render('cookies')
 })
 
 app.use('*', (req,res)=> {

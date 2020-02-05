@@ -234,23 +234,26 @@ nav ul li a:focus {
 
 #FaceBook {
     position: relative;
-    left: 35%;
+    left: 38%;
     top: 0%;
     padding-bottom: 50px;
+    font-size: 44px;
 
 }
 
 #Instagram {
     position: relative;
-    left: 40%;
+    left: 46%;
     top: 0%;
+    font-size: 44px;
 
 }
 
 #YouTube {
     position: relative;
-    left: 45%;
+    left: 53%;
     top: 0%;
+    font-size: 44px;
     
 }
 
@@ -585,7 +588,7 @@ font-weight: 400;
     top: 0%;
     left: 77%;
     background-color: #2de063;
-    border: 1px solid #fff;
+    border: 1px solid #2de063;
     color: #fff;
   
     flex-wrap: wrap;
@@ -624,13 +627,13 @@ font-weight: 400;
 .btn-contact-us-maps {
     width: 481px;
     height: 95px;
-    margin-top: 102px;
+    margin-top: 103px;
     transform: skewX(165deg);
     font-weight: normal;
     position: absolute;
-    left: 31%;
+    left: 38%;
     background-color: #38387f;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #38387f;
     border-left: 1px solid #38387f;
     border-top: 1px solid #38387f;
     border-right: 1px solid #38387f;
@@ -1584,5 +1587,5 @@ footer p span {
     font-style: italic;
     text-align: center;
     margin-top: 25px;
-    margin-right: 5%;
+    margin-right: 0%;
   }

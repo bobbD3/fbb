@@ -1,3 +1,5 @@
+
+document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
 /*========================================
                 Preloader
 /*=======================================*/
@@ -133,6 +135,8 @@ $(function () {
 
 /* Cookies*/
 
+
+
     if (localStorage.getItem('cookieSeen') != 'shown') {
         $('.cookie-banner').delay(2000).fadeIn();
         localStorage.setItem('cookieSeen','shown')
@@ -142,6 +146,7 @@ $(function () {
 $('.close').click(function() {
     $('.cookie-banner').fadeOut();
   })
+
 /* =========================================
                 Hover 
 ============================================ */
