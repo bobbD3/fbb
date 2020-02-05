@@ -234,7 +234,7 @@ nav ul li a:focus {
 
 #FaceBook {
     position: relative;
-    left: 39%;
+    left: 38%;
     top: 0%;
     padding-bottom: 50px;
     font-size: 44px;
@@ -651,9 +651,11 @@ color: #ffffff;
 font-family: "Fira Sans Condensed";
 font-weight: 500;
 font-style: italic;
+display: none;
 }
 .btn-contact-us-maps a:any-link {
     color: #fff;
+    display: none;
   }
 
 
