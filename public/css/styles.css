@@ -418,7 +418,8 @@ nav ul li a:focus {
     background-image: url(../img//other/picture2.JPG);
     background-size:cover;
     background-position:center;
-    height: 115vh;
+    height: 110vh;
+    margin-top: 60px;
     
 }
 
@@ -435,8 +436,8 @@ nav ul li a:focus {
 
 #service-heading {
     text-align: left;
-    margin-left: -41%;
-    margin-top: -22%;
+    margin-left: -18%;
+    margin-top: -24%;
 }
 
 #service-heading p {
@@ -461,11 +462,12 @@ font-weight: 400;
     transform: translate(-50%, -50%) scale(0);
     transition: 200ms ease-in-out;
     border: 1px solid #000;
-    border-radius: 10px;
+    border-radius: 0px;
     z-index: 999;
     background-color: #fff;
     width: 500px;
     max-width: 80%;
+    box-shadow: 0 15px 28px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
 }
 
 .popup.active {
@@ -665,8 +667,8 @@ font-style: italic;
     transform: skewX(165deg);
     font-weight: normal;
     position: absolute;
-    top: 76%;
-    left: -40%;
+    top: 90%;
+    left: -18%;
     background-color: #2de063;
     border: 1px solid #fff;
     flex-wrap: wrap;
@@ -824,10 +826,6 @@ font-style: italic;
     left: 50%;
     font-size: 15px;
     font-weight: bold;
-}
-
-services-01 #about-bottom {
-    margin: 60px;
 }
 
 #about-bottom img {
