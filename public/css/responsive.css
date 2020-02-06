@@ -147,7 +147,7 @@
 
     .btn-contact-us {
         position: absolute;
-        top: 87%;
+        top: 0%;
         left: auto;
         background-color: #2de063;
         border: 1px solid #fff;
@@ -309,7 +309,7 @@
 
     .btn-contact-us {
         position: absolute;
-        top: 87%;
+        top: 0%;
         left: auto;
         background-color: #2de063;
         border: 1px solid #fff;
@@ -755,7 +755,6 @@
     .btn-contact-us {
         position: absolute;
         top: 87%;
-        left: auto;
         background-color: #2de063;
         border: 1px solid #fff;
         color: #fff;

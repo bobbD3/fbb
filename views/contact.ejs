@@ -1,5 +1,121 @@
 <%- include("partials/header") %>
+<section id="contact">
+    <div id="home-content">
+    
+        <div id="home-content-inner" class="about-right">
+
+            <div id="contact-heading">
+
+                <h1 id="contact-heading-1">Как можеш да</h1><br>
+                <h1 id="contact-heading-2"> ни намериш?
+                    <!-- <a href="#"><b>ЗДРАВИ!</b></a> -->
+                </h1>
+                <p>За връзка с екипа на Functional Bodies, въпроси и лична среща с<br> цел консултация:
+                </p>
+                <div class="container-fluid">
+                    <div id="offices">
+
+                        <div class="row">
+
+                            <div class="col-md-12 wow fadeInUp" data-wow-duration="1s">
+
+                                <div class="office">
+
+                                    <ul class="office-details">
+                                        <li><img src="/img/Icons/phone icon.svg" alt="Телефон" class="img-fluid" width=50>
+                                            <span>
+                                                <a href="tel:+(359)87 816 1637">+(359)87 816 1637 </a>
+                                            </span></li>
+                                        <li><img src="/img/Icons/Message icon.svg" alt="Телефон" class="img-fluid" width=50><span><a
+                                                    href="mailto:functionalbodiesbg@gmail.com">functionalbodiesbg@gmail.com</a></span>
+                                        </li>
+                                        <li><img src="/img/Icons/Location icon.svg" alt="Телефон" class="img-fluid" width=50>
+                                            
+                                            <span ><a href="">бул. Цариградско шосе 125</a>  </span><br>
+                                            <span class="aibt"> <a >София България</a></span> </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+
+        <a href="#form" id="arrow-down">
+            <img src="/img/Icons/arrow icon.svg" alt="ИНДИВИДУАЛНА ПРОГРАМА" class="img-fluid" width=20>
+        </a>
+    </div>
+</section>
 
 
+<section id="form">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="popup active-contact " id="popup">
+                <div class="popup-header">
+                    <div class="popup-title">СВЪРЖЕТЕ СЕ С НАС</div>
+        
+                </div>
+        
+                <div class="popup-body">
+                    <form method="POST" action="/send-email">
+                        <!-- <h4>Свържете се с нас</h4>
+                <p>Имате въпроси? С радост ще Ви отговорим. Пратите ни съобщение и ще се свържем с вас.</p> -->
+        
+                        <div class="row">
+        
+                            <div class="col-md-12 col-sm-12">
+                                <!-- <h4>Свържете се с нас</h4> -->
+                                <div class="form-group">
+                                    <input type="text" maxlength="50" class="form-control-contact" id="name" name="name"
+                                        required>
+                                    <span class="floating-label">Име</span>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="form-group">
+                                    <input type="email" maxlength="50" class="form-control-contact" id="email" name="email"
+                                        required>
+                                    <span class="floating-label">Имейл</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control-contact" id="phone" name="phone"  required>
+                            <span class="floating-label">Телефон</span>
+                        </div>
+                    </div>
+                            <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control-contact" id="subject" name="subject"  required>
+                            <span class="floating-label">Запитване</span>
+                        </div>
+                    </div>
+        
+                        </div>
+                        <div class="form-group">
+                            <textarea maxlength="150" rows="1" class="form-control-contact" id="message" name="message"
+                                placeholder="Оставете ни съобщение"></textarea>
+        
+                        </div>
+        
+                        <div id="submit-btn">
+                            <button class="btn-contact-us-contact" title="Submit" role="button">Изпрати</button>
+                        </div>
+        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</section>
 
 <%- include("partials/footer") %>

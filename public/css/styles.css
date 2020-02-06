@@ -291,7 +291,7 @@ nav ul li a:focus {
 
 #home-content {
     width: 100%;
-    height: 100%; 
+    height: 100vh; 
 
 }
 
@@ -451,6 +451,58 @@ font-family: "Fira Sans Condensed";
 font-weight: 400;
 }
 
+
+/* ===================================
+            Contact
+==================================*/
+
+#contact {
+    background-image: url(../img//other/picture4.JPG);
+    background-size:cover;
+    background-position:center;
+    height: 115vh;
+    margin-top: 60px;
+    
+    
+}
+
+#contact-heading-1,
+#contact-heading-2  {
+    font-size: 83px;
+    letter-spacing: 1px;
+    line-height: 105px;
+    color: #ffffff;
+    font-family: "Fira Sans Condensed";
+    font-weight: 600;
+    font-style: italic;
+}
+
+#contact-heading {
+    text-align: left;
+    margin-left: -18%;
+    margin-top: -24%;
+}
+
+#contact-heading p {
+    width: 525px;
+height: 107px;
+font-size: 18px;
+letter-spacing: 0px;
+line-height: 27px;
+color: #ffffff;
+font-family: "Fira Sans Condensed";
+font-weight: 400;
+}
+
+/* ===================================
+            pop up - Contact
+==================================*/
+
+
+#form {
+    padding: 75px;
+}
+
 /* ===================================
             pop up
 ==================================*/
@@ -465,38 +517,71 @@ font-weight: 400;
     border-radius: 0px;
     z-index: 999;
     background-color: #fff;
-    width: 500px;
+    width: 750px;
     max-width: 80%;
+ 
+    border-radius: 10px;
     box-shadow: 0 15px 28px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
 }
 
+
+
 .popup.active {
     transform: translate(-50%, -50%) scale(1);
+    
+}
+
+.popup.active-contact {
+    transform: translate(-50%, -50%) scale(1);
+    position: relative;
+    top:250px;
+    z-index: 0;
 }
 .popup-header {
-    padding: 10px 15px;
+    padding: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #000;
+    border-bottom: 0px solid #000;
+    padding-left: 44px;
 }
 
 .popup-header .popup-title {
-    font-size: 1.25rem;
-    font-weight: bold;
+    font-size: 52px;
+    letter-spacing: 1px;
+    line-height: 94px;
+    color: #28286f;
+    font-family: "Fira Sans Condensed";
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    padding-left: 125px ;
 }
 
-.popup-header .close-button {
+.close-button {
+    position: absolute;
+    top: -27px;
+    left: 97%;
     cursor: pointer;
-    border: none;
     outline: none;
-    background: none;
-    font-size: 1.25rem;
-    font-weight: bold;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border: 0px solid #fff;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: normal;
+    vertical-align: baseline;
+    color: #28286f;
+    box-shadow: 0 8px 13px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .popup-body {
-    padding: 10px 15px;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+
 }
 
 #overlay {
@@ -588,7 +673,7 @@ font-weight: 400;
     font-weight: normal;
     position: absolute;
     top: 0%;
-    left: 77%;
+    right:200px;
     background-color: #2de063;
     border: 1px solid #2de063;
     color: #fff;
@@ -676,6 +761,26 @@ display: none;
     flex-wrap: wrap;
     padding: 7px;
     text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+ }
+
+ .btn-contact-us-contact {
+     height: 50px;
+    width: 90px;
+    min-width: 160px;
+    margin-top: 30px;
+    transform: skewX(165deg);
+    font-size: 24px;
+    font-weight: normal;
+    position: absolute;
+    top: 85%;
+    left: 41%;
+    background-color: #2de063;
+    border: 1px solid #2de063;
+    color: #fff;
+  
+    flex-wrap: wrap;
+    padding: 3px;
     font-family: 'Fira Sans Condensed', sans-serif;
  }
 .btn-color:hover,
@@ -1285,14 +1390,9 @@ text-align: left;
 
 
 /* Contact Left */
-#contact {
-    padding: 75px;
-    background: #fff;
-}
 
-#contact-left p {
-    margin: 25px 0 20px 0;
-}
+
+
 
 ul.office-details {
     list-style: none;
@@ -1302,9 +1402,9 @@ ul.office-details {
 ul.office-details li {
     font-family: 'Fira Sans Condensed', sans-serif;
     margin-top: 12px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+
+    display: block;
+    color: #fff;
 }
 
 ul.office-details li i {
@@ -1312,6 +1412,26 @@ ul.office-details li i {
     width: 45px;
 }
 
+ li span {
+    padding-left: 15px;
+    color: #fff;
+}
+
+ul.office-details li a {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 6px 4px;
+    text-decoration: none;
+    margin-left: 1.2rem;
+    font-style: normal;
+}
+
+ul.office-details li a:hover,
+ul.office-details li a:focus {
+    color: #fff;
+}
 #contact-left ul.social-list li a {
     color: #212226;
     border: 1px solid #212226;
@@ -1323,6 +1443,9 @@ ul.office-details li i {
     border-color: transparent;
 }
 
+.aBitLeft {
+    padding-left: 68px;
+}
 
 /* Contact Right */
 
@@ -1402,6 +1525,62 @@ ul.social-list li:nth-child(3) a:hover {
     border-color: transparent;
 
 }
+
+.form-control-contact {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0px solid #ced4da;
+    border-bottom: 2px solid grey;
+    border-radius: 0;
+    outline: none;
+    font-size: 24px;
+    color: #1d1d51;
+    font-family: "Fira Sans Condensed";
+    font-weight: 400;
+    margin-top: 30px;
+}
+.form-control-contact:focus {
+    transition: all 300ms linear;
+    border-bottom-color: #2de063;
+}
+
+.floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 20px;
+    top: 18px;
+    transition: 0.2s ease all;
+    font-size: 24px;
+    color: #1d1d51;
+    font-family: "Fira Sans Condensed";
+    font-weight: 400;
+}
+
+.floating-label-textarea {
+    position: relative;
+    pointer-events: none;
+    left: 20px;
+    top: -70px;
+    transition: 0.2s ease all;
+    font-size: 24px;
+    color: #1d1d51;
+    font-family: "Fira Sans Condensed";
+    font-weight: 400;
+}
+
+.form-control-contact:focus ~ .floating-label,
+.form-control-contact:not(:focus):valid ~ .floating-label{
+  top: 0px;
+  bottom: 10px;
+  left: 20px;
+  font-size: 14px;
+  opacity: 1;
+}
+
 
 
 /* =========================================
@@ -1530,6 +1709,13 @@ footer p span {
 
 .img-thumbnail .caption-full {
     padding: 9px;
+}
+
+.closeMark {
+    padding: 0;
+    height: 50%;
+    width: 50%;
+    color: #000;
 }
 
 #errorPage {

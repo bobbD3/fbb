@@ -111,46 +111,52 @@
             <button data-popup-target="#popup" class="btn-contact-us">CONTACT US</button>
             <div class="popup" id="popup">
                 <div class="popup-header">
-                    <div class="popup-title">Functioanl bodies</div>
-                    <button data-close-button class="close-button">&times;</button>
+                    <div class="popup-title">СВЪРЖЕТЕ СЕ С НАС</div>
                     
-                </div>
+                  </div>
+                  <button data-close-button class="close-button"><span class="closeMark">&times;</span></button>
                 
                 <div class="popup-body">
                   <form method="POST" action="/send-email">
-                    <h4>Свържете се с нас</h4>
-                    <p>Имате въпроси? С радост ще Ви отговорим. Пратите ни съобщение и ще се свържем с вас.</p>
+                    <!-- <h4>Свържете се с нас</h4>
+                    <p>Имате въпроси? С радост ще Ви отговорим. Пратите ни съобщение и ще се свържем с вас.</p> -->
        
                     <div class="row">
 
-                        <div class="col-md-6 col-sm-6">
+                        <div class="col-md-12 col-sm-12">
+                          <!-- <h4>Свържете се с нас</h4> -->
                             <div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Име" required>
+                                <input type="text" maxlength="50" class="form-control-contact" id="name" name="name" required>
+                                <span class="floating-label">Име</span>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <input type="email" maxlength="50" class="form-control-contact" id="email" name="email"  required>
+                                <span class="floating-label">Имейл</span>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Имейл" required>
+                                <input type="text" maxlength="16"class="form-control-contact" id="phone" name="phone">
+                                <span class="floating-label">Телефон</span>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="phone" name="phone" placeholder="Телефон" required>
+                                <input type="text" maxlength="50" class="form-control-contact" id="subject" name="subject"  >
+                                <span class="floating-label">Запитване</span>
                             </div>
                         </div>
-                        <!-- <div class="col-md-6 col-sm-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Запитване" required>
-                            </div>
-                        </div> -->
 
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" id="message" name="message" placeholder="съобщение" ></textarea>
+                        <textarea maxlength="150" rows="1" class="form-control-contact" id="message" name="message" placeholder="Оставете ни съобщение" ></textarea>
+                        
                     </div>
 
                     <div id="submit-btn">
-                        <button class="btn btn-general btn-color" title="Submit" role="button">Изпрати</button>
+                        <button  class="btn-contact-us-contact" title="Submit" role="button">Изпрати</button>
                     </div>
 
                 </form>
