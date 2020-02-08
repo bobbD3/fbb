@@ -1117,30 +1117,15 @@ text-align: left;
    
 }
 
-#pentagon {
+.pentagon {
 
+    transform: scale(2);
+    z-index: -1;
     position: relative;
-    width: 54px;
-    box-sizing: content-box;
-    border-width: 50px 18px 0;
-    border-style: solid;
-    border-color: #343491 transparent;
-    border-bottom-color:#343491 ;
-    z-index: -1;
+    left: -32px;
+    top: -12px;
   }
-  #pentagon:before {
-    content: "";
-    position: absolute;
-    height: 0;
-    width: 0;
-    top: -85px;
-    left: -18px;
-    border-width: 0 45px 35px;
-    border-style: solid;
-    border-color: transparent transparent #343491;
-    border-top-color: #343491;
-    z-index: -1;
-  }
+
 
   .trainingPic {
       width: 450px;
