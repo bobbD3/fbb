@@ -484,7 +484,7 @@
     }
 
     .popup-header .popup-title {
-        padding-left: 45px
+        padding-left: 35px
     }
     .bigNumber2 {
         left: 0%
@@ -1008,7 +1008,7 @@
 
     .popup-header .popup-title {
         padding-left: 0;
-        font-size: 35px;
+        font-size: 25px;
 
     }
 
@@ -1069,6 +1069,23 @@
     }
     .bigNumber2 {
         left: 0%
+    }
+    .form-control-contact {
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        line-height: 1.5;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 0px solid #ced4da;
+        border-bottom: 2px solid grey;
+        border-radius: 0;
+        outline: none;
+        font-size: 14px;
+        color: #1d1d51;
+        font-family: "Fira Sans Condensed";
+        font-weight: 400;
+        margin-top: 30px;
     }
 }
 
@@ -1267,7 +1284,7 @@
 
     .popup-header .popup-title {
         padding-left: 0;
-        font-size: 28px
+        font-size: 24px
     }
 
     .btn-contact-us-contact {
