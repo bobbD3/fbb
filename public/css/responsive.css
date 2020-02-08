@@ -166,8 +166,53 @@
     .line-right {
         display: none;
     }
+
     .btn-contact-us-maps {
         display: none;
+    }
+
+    .btn-contact-us-midSection {
+        top: 95%;
+    }
+
+    #FaceBook {
+        left: 30%
+    }
+
+    #Instagram {
+        left: 40%
+    }
+
+    #service-heading {
+        margin-top: -60%
+    }
+
+    .btn-contact-us-services {
+        top: 97%;
+    }
+
+    #training-menu {
+        padding: 40px;
+    }
+
+    .training-logo-h3 {
+        margin: 40px;
+    }
+
+    #training-menu p {
+        margin-left: 40px;
+    }
+
+    #contact-heading {
+        margin-left: -30%;
+        margin-top: -76%;
+    }
+
+    .team-member-info p {
+        font-size: 12px;
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
@@ -189,8 +234,13 @@
 
     /* Home */
     #home-heading h1 {
-        font-size: 25px;
-        line-height: 35px;
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    #home-heading {
+        margin-left: -23%;
+        margin-top: -18%;
     }
 
     #home-text p {
@@ -209,59 +259,21 @@
         margin: -15% 0 0 -25%;
     }
 
+    .home-stats-item p {
+        width: 182px;
+    }
+
     /* Generic */
     .btn-general {
         padding: 6px 35px 8px 35px;
         font-size: 14px;
     }
 
-    /* Generic */
-    .vertical-heading h2 {
-        font-size: 29px;
+    .team-member {
+        transform: scale(1.2);
     }
 
-    /* Tech Statement */
-    #tech-statement h3 {
-        font-size: 20px;
-        line-height: 30px;
-    }
 
-    /* Services 02 */
-    .r-tabs-accordion-title {
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .r-tabs-accordion-title a {
-        font-family: "Raleway", sans-serif;
-        font-size: 13px;
-        color: #ffffff;
-        text-transform: uppercase;
-        font-weight: 400;
-        padding: 0;
-        text-decoration: none;
-    }
-
-    /* Tab active state */
-    .r-tabs-accordion-title.r-tabs-state-active a {
-        color: #cd2027;
-        font-weight: 700;
-        border-bottom: 3px solid #cd2027;
-        padding-bottom: 5px;
-        -webkit-transition: border-color 300ms linear;
-        transition: border-color 300ms linear;
-    }
-
-    /* Pricing */
-    .pricing-table .price h2 {
-        margin: 0 0 0 6px;
-        font-size: 35px;
-    }
-
-    /* Stats */
-    .stats-item p {
-        line-height: 18px;
-    }
 
     /* Blog */
     .blog-post .post-meta p {
@@ -297,9 +309,9 @@
         color: #DCDCDC;
     }
 
-    .side-icon {
+    /* .side-icon {
         font-size: 20px;
-    }
+    } */
 
     .nav-link-right {
 
@@ -309,8 +321,8 @@
 
     .btn-contact-us {
         position: absolute;
-        top: 0%;
-        left: auto;
+        top: 90%;
+        left: 20%;
         background-color: #2de063;
         border: 1px solid #fff;
         color: #fff;
@@ -335,20 +347,127 @@
 
     .home-stats-item h3 {
         line-height: 45px;
+        font-size: 25px;
     }
 
     #midSection {
         display: none;
     }
 
-    
+
     .line-left,
     .line-right {
         display: none;
     }
+
     .btn-contact-us-maps {
         display: none;
     }
+
+    .btn-contact-us-contact {
+        top: 85%;
+        left: 36%;
+    }
+
+    .team-member-info p {
+        font-size: 10px;
+        padding-top: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        word-wrap: break-word;
+        line-height: 12px;
+    }
+
+    #FaceBook {
+        left: 25%;
+    }
+
+    #Instagram {
+        left: 35%;
+    }
+
+    #YouTube {
+        left: 43%;
+    }
+
+    .mapSize {
+        position: relative;
+        left: -100px;
+    }
+
+    #service-heading {
+        text-align: left;
+        margin-left: -34%;
+        margin-top: -74%;
+    }
+
+    #service-heading-1,
+    #service-heading-2 {
+        font-size: 67px;
+        letter-spacing: 1px;
+        line-height: 70px
+    }
+
+    .training-logo-h3 {
+        margin-top: 36%;
+    }
+
+    .TextPlace {
+        position: relative;
+        top: 170px
+    }
+
+    .picPlace {
+        margin-top: -120%;
+    }
+
+    #training-menu2 p {
+        position: relative;
+        top: 170px;
+        z-index: 1;
+    }
+
+    #contact {
+        margin-left: -350px;
+    }
+
+    #contact-heading {
+        text-align: left;
+        margin-left: -37%;
+        margin-top: -72%;
+    }
+
+    #contact-heading p {
+        width: 221px;
+    }
+
+    #contact-heading-1,
+    #contact-heading-2 {
+        font-size: 54px;
+        line-height: 50px;
+    }
+
+    ul.office-details {
+        list-style: none;
+        padding: 0;
+        margin-top: 200px
+    }
+
+    #form {
+        padding-top: 100px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .popup-header .popup-title {
+        padding-left: 45px
+    }
+    .bigNumber2 {
+        left: 0%
+    }
+
+
 }
 
 
@@ -376,8 +495,8 @@
 
     /* Home */
     #home-heading h1 {
-        font-size: 22px;
-        line-height: 35px;
+        font-size: 46px;
+        line-height: 54px;
     }
 
     #home-text p {
@@ -396,6 +515,10 @@
         height: 30%;
         width: 50%;
         margin: -15% 0 0 -25%;
+    }
+
+    #homeNew {
+        padding-top: 50px;
     }
 
     /* About */
@@ -427,25 +550,6 @@
     /* Large Content Box */
     .content-box-lg {
         padding: 90px 0;
-    }
-
-    /* Vertical heading */
-    .vertical-heading {
-        text-align: center;
-    }
-
-    .vertical-heading h5 {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-        display: block;
-        position: static;
-        margin-bottom: 15px;
-    }
-
-    .vertical-heading h2 {
-        font-size: 29px;
-        line-height: normal;
-        margin: 0;
     }
 
     #about-left {
@@ -493,14 +597,6 @@
     }
 
     /* Services 01 */
-    /* Horizontal heading */
-    .horizontal-heading {
-        margin-bottom: 40px;
-    }
-
-    .horizontal-heading h2 {
-        font-size: 30px;
-    }
 
     #services-01 img {
         margin: 35px 0;
@@ -563,57 +659,9 @@
         padding-right: 15px;
     }
 
-    /* Testimonials */
-    #testimonials {
-        padding-top: 45px;
-    }
-
-    #testimonial-slider {
-        top: 0;
-    }
-
-    #testimonials .vertical-heading {
-        padding: 0;
-    }
-
-    .testimonial .row {
-        margin: 0;
-    }
-
-    .testimonial h3 {
-        font-size: 20px;
-    }
-
-    .testimonial .stars {
-        font-size: 16px;
-    }
-
-    .author img {
-        width: 80px !important;
-    }
-
-    /* Pricing */
-    .pricing-table {
-        margin-bottom: 30px;
-    }
-
     .pricing-table .price h2 {
         font-size: 28px;
         margin: 0 0 0 16px;
-    }
-
-    /* Stats */
-    .stats-item {
-        margin-bottom: 20px;
-        padding: 25px 5px;
-    }
-
-    .stats-item i {
-        font-size: 30px;
-    }
-
-    .stats-item h3 {
-        font-size: 24px;
     }
 
     /* Blog */
@@ -692,9 +740,9 @@
         color: #DCDCDC;
     }
 
-    .side-icon {
+    /* .side-icon {
         font-size: 20px;
-    }
+    } */
 
     .nav-link-right {
 
@@ -781,6 +829,11 @@
         line-height: 45px;
     }
 
+    .home-stats-item p {
+        width: 421px;
+        height: 49px;
+    }
+
     .team-member-info p {
         font-size: 14px;
         padding-top: 15px;
@@ -796,8 +849,192 @@
     .line-right {
         display: none;
     }
+
     .btn-contact-us-maps {
         display: none;
+    }
+
+    #FaceBook {
+        left: 13%;
+    }
+
+    #Instagram {
+        left: 28%;
+    }
+
+    #YouTube {
+        left: 39%;
+    }
+
+    .mapSize {
+        position: relative;
+        left: -223px;
+    }
+
+    #service-heading {
+        text-align: left;
+        margin-left: -33%;
+        margin-top: -59%;
+    }
+
+    #service-heading-1,
+    #service-heading-2 {
+        font-size: 32px;
+        letter-spacing: 1px;
+        line-height: 31px;
+    }
+
+    .btn-contact-us {
+        left: 20%
+    }
+
+    .btn-contact-us-services {
+        top: 120%;
+        left: -26%;
+    }
+
+    #service {
+        position: relative;
+    }
+
+    #arrow-down {
+        bottom: 10%;
+    }
+
+    #training-menu {
+        padding-top: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .training-logo-h1 {
+        font-size: 69px;
+        letter-spacing: 1px;
+        line-height: 80px;
+    }
+
+    .shape {
+        display: none;
+    }
+
+    .training-logo-h3 {
+        margin-top: 400px;
+    }
+
+    #training-menu p {
+        width: auto;
+        height: 227px;
+    }
+
+    #training-menu2 p {
+        width: auto;
+        height: 227px;
+        z-index: 1;
+    }
+
+    #training-menu3 p {
+        width: auto;
+        height: 227px;
+    }
+
+    #training-menu3 {
+        padding-bottom: 150px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .trainingPic1 {
+        width: auto;
+        left: 5%;
+        z-index: 1;
+
+    }
+
+    .trainingPic2 {
+        width: auto;
+        left: 5%;
+        z-index: 1;
+        top: -740px
+    }
+
+    .trainingPic3 {
+        width: auto;
+        left: 5%;
+        z-index: 1;
+
+    }
+
+    .break {
+        display: none;
+    }
+
+    #service-heading p {
+        margin-top: 150px;
+    }
+
+    .popup-header .popup-title {
+        padding-left: 0;
+        font-size: 35px;
+
+    }
+
+    .btn-contact-us-contact {
+        top: 86%;
+        left: 30%;
+    }
+
+    ul.office-details {
+        list-style: none;
+        padding: 0;
+        margin-top: 200px
+    }
+
+    #form {
+        padding-top: 100px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .popup-header .popup-title {
+        padding-left: 45px
+    }
+
+    ul.office-details {
+        list-style: none;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    ul.office-details li {
+        margin-top: 0;
+    }
+
+    #contact-heading-1,
+    #contact-heading-2 {
+        font-size: 32px;
+        letter-spacing: 1px;
+        line-height: 46px;
+    }
+
+    #contact-heading p {
+        margin-top: 50px;
+    }
+
+    #form {
+        padding-top: 150px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    #contact-heading {
+        text-align: left;
+        margin-left: -36%;
+        margin-top: -60%;
+    }
+    .bigNumber2 {
+        left: 0%
     }
 }
 
@@ -925,9 +1162,9 @@
         color: #DCDCDC;
     }
 
-    .side-icon {
+    /* .side-icon {
         font-size: 20px;
-    }
+    } */
 
     .blog-post {
         display: none;
@@ -955,9 +1192,80 @@
     #midSection {
         display: none;
     }
+
     .btn-contact-us-maps {
         display: none;
     }
+
+    .home-stats-item p {
+        width: auto;
+        height: 49px;
+    }
+
+    #home-content-inner {
+        top: 58%;
+        left: 43%;
+    }
+
+    #home-heading h1 {
+        font-size: 38px;
+        line-height: 67px;
+        width: 375px;
+    }
+
+    .popup-header .popup-title {
+        padding-left: 0;
+        font-size: 28px
+    }
+
+    .btn-contact-us-contact {
+        left: 27%;
+    }
+
+    #service-heading p {
+        margin-top: 50px;
+    }
+
+    .training-logo-h1 {
+        font-size: 50px
+    }
+
+    #training-menu2 {
+        padding: 15px;
+    }
+
+    #training-menu2 p {
+        font-size: 18px;
+        z-index: 1;
+        padding-bottom: 50px;
+
+    }
+
+    #training-menu3 p {
+        font-size: 18px;
+        z-index: 1;
+    }
+
+    #FaceBook {
+        left: 9%;
+    }
+
+    #Instagram {
+        left: 21%;
+    }
+
+    #YouTube {
+        left: 30%;
+    }
+
+    #training-menu p {
+        font-size: 18px;
+        z-index: 1;
+    }
+    .bigNumber2 {
+        left: 0%
+    }
+
 }
 
 
@@ -986,13 +1294,34 @@
     #midSection {
         display: none;
     }
-    
+
     .line-left,
     .line-right {
         display: none;
     }
+
     .btn-contact-us-maps {
         display: none;
+    }
+
+    #home-heading h1 {
+        font-size: 24px;
+        line-height: 35px;
+        width: 250px;
+    }
+
+    #arrow-down {
+        bottom: 8%;
+        display: inline;
+    }
+    .bigNumber2 {
+        left: 0%
+    }
+    #training-menu2 p {
+        font-size: 18px;
+        z-index: 1;
+        padding-bottom: 40px;
+
     }
 }
 
@@ -1000,6 +1329,12 @@
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
 
 @media (max-width: 320px) {
+    #training-menu2 p {
+        font-size: 18px;
+        z-index: 1;
+        margin-bottom: 40px;
+
+    }
     .content-box-md {
         padding: 10px 0;
         margin-top: 0px;
@@ -1032,7 +1367,7 @@
         height: 30%;
         width: 50%;
         margin: -52% 0 0 -25%;
-       
+
     }
 
     .home-slideshow {
@@ -1108,9 +1443,9 @@
         padding-bottom: 2px;
     }
 
-    .side-icon {
+    /* .side-icon {
         font-size: 20px;
-    }
+    } */
 
     .blog-post {
         display: none;
@@ -1185,7 +1520,42 @@
     .line-right {
         display: none;
     }
+
     .btn-contact-us-maps {
         display: none;
+    }
+    .btn-contact-us {
+        position: absolute;
+        top: 87%;
+        left: 5%;
+    }
+    .popup-header .popup-title {
+        padding-left: 0;
+        font-size: 20px;
+    }
+    .btn-contact-us-contact {
+        left: 16%;
+    }
+    #Instagram {
+        left: 18%;
+    }
+    #YouTube {
+        left: 24%;
+    }
+    #contact-heading {
+        text-align: left;
+        margin-left: -36%;
+        margin-top: -230%;
+    }
+    #offices {
+        margin-top: 40px;
+    }
+    .mapSize {
+        position: relative;
+        left: -328px;
+    }
+    #home-content-inner {
+        top: 50%;
+        left: 41%;
     }
 }

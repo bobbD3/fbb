@@ -442,6 +442,7 @@ nav ul li a:focus {
 
 #service-heading p {
     width: 525px;
+    max-width: 80%;
 height: 107px;
 font-size: 18px;
 letter-spacing: 0px;
@@ -460,6 +461,8 @@ font-weight: 400;
     background-image: url(../img//other/picture4.JPG);
     background-size:cover;
     background-position:center;
+    -webkit-height: 115vh;
+    -moz-height: 120vh;
     height: 115vh;
     margin-top: 60px;
     
@@ -485,6 +488,7 @@ font-weight: 400;
 
 #contact-heading p {
     width: 525px;
+    max-width: 80%;
 height: 107px;
 font-size: 18px;
 letter-spacing: 0px;
@@ -1135,6 +1139,33 @@ text-align: left;
       top: 0%;
       left: -1%;
   }
+  .trainingPic1 {
+    width: 450px;
+    height: 380px;
+    float: right;
+    z-index: 99;
+    position: absolute;
+    top: 0%;
+    left: -1%;
+}
+.trainingPic2 {
+    width: 450px;
+    height: 380px;
+    float: right;
+    z-index: 99;
+    position: absolute;
+    top: 0%;
+    left: -1%;
+}
+.trainingPic3 {
+    width: 450px;
+    height: 380px;
+    float: right;
+    z-index: 99;
+    position: absolute;
+    top: 0%;
+    left: -1%;
+}
   
 
   .bigNumber {
