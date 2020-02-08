@@ -14,7 +14,9 @@ Colors:
 /* ===================================
             Cookies Body 
 ==================================*/
-
+.imgLogo {
+    padding-left:15px
+}
 .cookie-banner {
     position: fixed;
     bottom: 0;
@@ -305,6 +307,16 @@ nav ul li a:focus {
     width: 50%;
     margin: -15% 0 0 -25%;
 }
+#services-content-inner {
+    display: table-cell;
+    vertical-align: middle;
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+}
 #home-heading {
     text-align: left;
     margin-left: -23%;
@@ -419,7 +431,7 @@ nav ul li a:focus {
     background-size:cover;
     background-position:center;
     height: 110vh;
-    margin-top: 60px;
+    margin-top: 50px;
     
 }
 
@@ -464,7 +476,7 @@ font-weight: 400;
     -webkit-height: 115vh;
     -moz-height: 120vh;
     height: 115vh;
-    margin-top: 60px;
+    margin-top: 50px;
     
     
 }

@@ -943,7 +943,6 @@
     }
 
     .training-logo-h1 {
-        font-size: 69px;
         letter-spacing: 1px;
         line-height: 80px;
     }
@@ -1225,7 +1224,7 @@
     }
 
     #arrow-down {
-        bottom: 5%;
+        bottom: 10%;
         display: inline;
     }
 
@@ -1280,7 +1279,7 @@
     }
 
     .training-logo-h1 {
-        font-size: 50px
+        font-size: 40px
     }
 
     #training-menu2 {
@@ -1317,6 +1316,9 @@
     }
     .bigNumber2 {
         left: 0%
+    }
+    .team-logo-h1 {
+        font-size: 45px;
     }
 
 }
@@ -1378,6 +1380,9 @@
     }
     .btn-contact-us-contact {
         top: 88%;
+    }
+    .team-logo-h1 {
+        font-size: 45px;
     }
 }
 
@@ -1644,5 +1649,8 @@
     }
     .btn-contact-us-contact {
         top: 88%;
+    }
+    .team-logo-h1 {
+        font-size: 45px;
     }
 }
