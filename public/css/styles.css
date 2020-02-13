@@ -437,7 +437,7 @@ nav ul li a:focus {
 
 #service-heading-1,
 #service-heading-2  {
-    font-size: 83px;
+    font-size: 63px;
     letter-spacing: 1px;
     line-height: 105px;
     color: #ffffff;
@@ -717,7 +717,7 @@ font-weight: 400;
     transform: skewX(165deg);
     font-weight: normal;
     position: absolute;
-    top: 65%;
+    top: 80%;
     left: 0%;
     background-color: #2de063;
     border: 1px solid #fff;
@@ -1654,12 +1654,16 @@ ul.social-list li:nth-child(3) a:hover {
 /* =========================================
                 Google Map
 ============================================ */
-.mapSize {
+/* .mapSize {
     height: auto;
     min-width: 100%;
     
-}
+} */
 
+#map {
+    height: 600px;
+    width: 100%;
+}
 
 
 /* =========================================

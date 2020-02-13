@@ -232,6 +232,10 @@
 /* Small Devices (Portrait Tablets & Small Desktops) */
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .imgLogo {
+        width: 55;
+    }
+
 
     /* Navigation */
     .site-nav-wrapper {
@@ -490,6 +494,9 @@
         left: 0%
     }
 
+    .btn-contact-us-services {
+        display: none;
+    }
 
 }
 
@@ -500,7 +507,9 @@
 
 @media (max-width: 767px) {
     /* Navigaiton */
-
+    .imgLogo {
+        width: 55;
+    }
 
     .navbar {
         padding: 0px 0;
@@ -1087,6 +1096,10 @@
         font-weight: 400;
         margin-top: 30px;
     }
+    
+    .btn-contact-us-services {
+        display: none;
+    }
 }
 
 
@@ -1095,6 +1108,9 @@
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
 
 @media (max-width: 480px) {
+    .imgLogo {
+        width: 55;
+    }
     .content-box-md {
         padding: 10px 0;
         margin-top: 0px;
@@ -1337,12 +1353,19 @@
     .team-logo-h1 {
         font-size: 45px;
     }
+    
+    .btn-contact-us-services {
+        display: none;
+    }
 
 }
 
 
 
 @media (max-width: 375px) {
+    .imgLogo {
+        width: 55;
+    }
     #about {
         margin-top: 145%;
         padding-top: 85px;
@@ -1401,12 +1424,19 @@
     .team-logo-h1 {
         font-size: 45px;
     }
+    
+    .btn-contact-us-services {
+        display: none;
+    }
 }
 
 
 /* Extra Small Devices (Portrait Phones & Smaller Devices) */
 
 @media (max-width: 320px) {
+    .imgLogo {
+        width: 55;
+    }
     #training-menu2 p {
         font-size: 18px;
         z-index: 1;
@@ -1669,5 +1699,9 @@
     }
     .team-logo-h1 {
         font-size: 45px;
+    }
+    
+    .btn-contact-us-services {
+        display: none;
     }
 }

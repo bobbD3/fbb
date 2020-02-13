@@ -72,25 +72,18 @@ $(function () {
     function showHideNav() {
 
         if ($(window).scrollTop() > 250) {
-
-            // Show white nav
-            // $("nav").addClass("white-nav-top");
-
-        //    $("nav").addClass("bg-light");
-        //    $(".nav-link").addClass("text-dark");
-        
+       
 
             // Show back to top button
             $("#back-to-top").fadeIn();
-                        // Show back to top button
+            // Show back to top button
             $("#back-to-top-phone").fadeIn();
 
             $("#back-to-top-mail").fadeIn();
 
         } else {
 
-            // Hide white nav
-            // $("nav").removeClass("white-nav-top");
+
 
            $("nav").removeClass("bg-light");
            $(".nav-link").removeClass("text-dark");
@@ -160,7 +153,6 @@ $('.close').click(function() {
 
 
 /* ===============================================
-
                 pop up 
 =================================================*/
 const openPopupButtons = document.querySelectorAll('[data-popup-target]')
@@ -199,3 +191,290 @@ function closePopup(popup){
     popup.classList.remove('active')
     overlay.classList.remove('active')
 }
+
+/* =========================================
+              Google Map
+============================================ */
+$(window).on('load', function () {
+
+    // Map Variables
+    var addressString = 'Academica Gym, ulitsa "Academic Rostislav Kaishev", Sofia';
+    var myLatlng = {
+        lat: 42.675790,
+        lng: 23.364940
+        
+    };
+    
+    // 1. Render Map
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 16,
+        center: myLatlng,
+        styles: [
+            {
+                "featureType": "all",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#1a0c32"
+                    }
+                ]
+            },
+            {
+                "featureType": "all",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "gamma": 0.01
+                    },
+                    {
+                        "lightness": 20
+                    }
+                ]
+            },
+            {
+                "featureType": "all",
+                "elementType": "labels.text.stroke",
+                "stylers": [
+                    {
+                        "saturation": -31
+                    },
+                    {
+                        "lightness": -33
+                    },
+                    {
+                        "weight": 2
+                    },
+                    {
+                        "gamma": 0.8
+                    }
+                ]
+            },
+            {
+                "featureType": "all",
+                "elementType": "labels.icon",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "administrative",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#ffffff"
+                    }
+                ]
+            },
+            {
+                "featureType": "landscape",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "lightness": 30
+                    },
+                    {
+                        "saturation": 30
+                    }
+                ]
+            },
+            {
+                "featureType": "landscape",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#ffffff"
+                    }
+                ]
+            },
+            {
+                "featureType": "landscape.man_made",
+                "elementType": "geometry.fill",
+                "stylers": [
+                    {
+                        "saturation": "18"
+                    },
+                    {
+                        "lightness": "-15"
+                    },
+                    {
+                        "gamma": "0.86"
+                    },
+                    {
+                        "color": "#280768"
+                    },
+                    {
+                        "weight": "1.26"
+                    }
+                ]
+            },
+            {
+                "featureType": "landscape.man_made",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                    {
+                        "color": "#a28ddf"
+                    },
+                    {
+                        "saturation": "50"
+                    },
+                    {
+                        "lightness": "8"
+                    }
+                ]
+            },
+            {
+                "featureType": "landscape.natural",
+                "elementType": "labels.text",
+                "stylers": [
+                    {
+                        "color": "#fffefe"
+                    }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "saturation": 20
+                    }
+                ]
+            },
+            {
+                "featureType": "poi.park",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "lightness": 20
+                    },
+                    {
+                        "saturation": -20
+                    }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "lightness": 10
+                    },
+                    {
+                        "saturation": -30
+                    }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "geometry.fill",
+                "stylers": [
+                    {
+                        "color": "#7d55e4"
+                    },
+                    {
+                        "saturation": "-9"
+                    },
+                    {
+                        "lightness": "-17"
+                    }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "geometry.stroke",
+                "stylers": [
+                    {
+                        "saturation": 25
+                    },
+                    {
+                        "lightness": 25
+                    }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#dfc9fb"
+                    }
+                ]
+            },
+            {
+                "featureType": "transit",
+                "elementType": "geometry.fill",
+                "stylers": [
+                    {
+                        "color": "#280a4c"
+                    }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "lightness": -20
+                    }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "geometry",
+                "stylers": [
+                    {
+                        "color": "#5c2abc"
+                    }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "geometry.fill",
+                "stylers": [
+                    {
+                        "color": "#d0c9f9"
+                    }
+                ]
+            }
+        ]
+    });
+
+    // 2. Add Marker
+    var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: "Заповядайте при нас"
+        
+    });
+
+    // 3. Add Info Window
+    var infowindow = new google.maps.InfoWindow({
+        content: addressString
+    });
+
+    // Show info window when user clicks marker
+    marker.addListener('click', function () {
+        infowindow.open(map, marker);
+    });
+
+    // 4. Resize Function
+    google.maps.event.addDomListener(window, 'resize', function () {
+
+        var center = map.getCenter();
+        google.maps.event.trigger(map, 'resize');
+        map.setCenter(center);
+
+    });
+
+    // 5. Change Marker Icon
+
+    var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    icon: iconBase + 'parking_lot_maps.png'
+  });
+
+});

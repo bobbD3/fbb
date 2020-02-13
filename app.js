@@ -91,6 +91,26 @@ app.post('/send-email', (req,res) => {
     
           
       });
+
+            // setup email data with unicode symbols
+            let mailOptionsUser = {
+                to: req.body.email, // list of receivers
+                subject: req.body.subject , // Subject line
+                text: req.body.subject, // plain text body
+                html: "<h1>Благодарим за запитването, ще отговорим на запитването Ви при първа възможност<h1>" + '<h1>Запитване: '+ req.body.subject +'</h1><h3><br><h3>Съобщение: ' + req.body.message +'</h3>' +"<h3>Екипът на Functional Bodies</h3>"
+            };
+          
+            // send mail with defined transport object
+            transporter.sendMail(mailOptionsUser, (error, info) => {
+                if (error) {
+                    return console.log(error);
+                }
+                console.log('Message sent: %s', info.messageId);   
+                console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+          
+                
+            });
+
       res.render('send-email')
       });
 
